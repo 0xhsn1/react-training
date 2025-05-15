@@ -1,12 +1,14 @@
-import './Style.css'
-import StickyNote from './components/StickyNote'
+import "./Style.css";
+import StickyNote from "./components/StickyNote";
+import Clock from "./components/Clock";
 
 const App = () => {
   return (
     <main>
-    <StickyNote />
+      {/* <StickyNote /> */}
+      <Clock />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
