@@ -1,5 +1,5 @@
 import "./Style.css";
-import { StickyNote, Clock, Events, Boxes } from "./components";
+import { StickyNote, Clock, Events, Boxes, Conditional } from "./components";
 
 const App = () => {
   return (
@@ -7,7 +7,8 @@ const App = () => {
       {/* <StickyNote /> */}
       {/* <Clock /> */}
       {/* <Events /> */}
-      <Boxes />
+      {/* <Boxes /> */}
+      <Conditional />
     </main>
   );
 };
